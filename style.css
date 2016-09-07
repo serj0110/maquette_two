@@ -2726,7 +2726,7 @@ body {
 				line-height: normal;
 			}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
@@ -3008,7 +3008,7 @@ body {
 				line-height: normal;
 			}
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-device-width: 414px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
