@@ -2107,6 +2107,7 @@ body {
 					cursor: pointer;
 				}
 		.phone {
+			display: none;
 			position: absolute;
 			top: 153px;
 			left: 10%;
@@ -2116,6 +2117,7 @@ body {
 			height: 700px;
 		}
 			.screen {
+				display: none;
 				position: relative;
 				background: url(screen.png) no-repeat;
 				background-size: 99% 99%;
@@ -2124,6 +2126,7 @@ body {
 				height: 510px;
 			}
 		.line1 {
+			display: none;
 			position: absolute;
 			top: 20px;
 			background: url(line1.png) no-repeat;
@@ -2132,6 +2135,7 @@ body {
 			height: 663px;
 		}
 		.line2 {
+			display: none;
 			position: absolute;
 			top: 100px;
 			background: url(line2.png) no-repeat;
