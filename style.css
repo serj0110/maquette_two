@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 body {
 	margin: 0;
 	padding: 0;
@@ -8,7 +7,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -47,12 +45,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -102,7 +98,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -235,7 +230,6 @@ body {
 			width: 49.7%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -273,20 +267,17 @@ body {
 				letter-spacing: -1px;
 				line-height: 24px;
 			}
-/*==================================*/
 .clearfix {
 	height: 10px;
     background: #ffffff;
     clear: both;
     height: 0;
 }
-/*==================================*/
 @media screen and (max-width: 1920px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -325,12 +316,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -380,7 +369,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -513,7 +501,6 @@ body {
 			width: 40%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -557,7 +544,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -596,12 +582,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -651,7 +635,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -784,7 +767,6 @@ body {
 			width: 45%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -828,7 +810,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -867,12 +848,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -922,7 +901,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -1055,7 +1033,6 @@ body {
 			width: 45.7%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -1099,7 +1076,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -1138,12 +1114,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -1193,7 +1167,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -1326,7 +1299,6 @@ body {
 			width: 45.7%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -1370,7 +1342,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -1409,12 +1380,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -1464,7 +1433,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -1597,7 +1565,6 @@ body {
 			width: 45.7%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -1641,7 +1608,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -1680,12 +1646,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -1735,7 +1699,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -1868,7 +1831,6 @@ body {
 			width: 49.7%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -1907,12 +1869,11 @@ body {
 				line-height: 24px;
 			}
 }
-@media screen and (max-device-width: 1080px) {
+@media screen and (max-width: 1080px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -1951,12 +1912,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -2006,7 +1965,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -2107,7 +2065,6 @@ body {
 					cursor: pointer;
 				}
 		.phone {
-			display: none;
 			position: absolute;
 			top: 153px;
 			left: 10%;
@@ -2117,7 +2074,6 @@ body {
 			height: 700px;
 		}
 			.screen {
-				display: none;
 				position: relative;
 				background: url(screen.png) no-repeat;
 				background-size: 99% 99%;
@@ -2126,7 +2082,6 @@ body {
 				height: 510px;
 			}
 		.line1 {
-			display: none;
 			position: absolute;
 			top: 20px;
 			background: url(line1.png) no-repeat;
@@ -2135,7 +2090,6 @@ body {
 			height: 663px;
 		}
 		.line2 {
-			display: none;
 			position: absolute;
 			top: 100px;
 			background: url(line2.png) no-repeat;
@@ -2143,7 +2097,6 @@ body {
 			width: 45.7%;
 			height: 663px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -2182,12 +2135,287 @@ body {
 				line-height: 26px;
 			}
 }
+@media screen and (max-device-width: 1080px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 30px;
+				line-height: 50px;
+				margin-left: 10%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 50px;
+				margin-right: 10%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 22px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 30px 10% 30px 10%;
+				width: auto;
+				height: auto;
+				float: !important;
+				padding: 0;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 30px;
+					color: #ffffff;
+					line-height: 30px;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 25px;
+					color: #ffffff;
+					line-height: 25px;
+					letter-spacing: 0;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 20px;
+				}
+				.form-button {
+					float: right;
+					font-family: Montserrat;
+					font-size: 17px;
+					text-align: center;
+					line-height: 30px;
+					width: 20%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 30px 10% 30px 10%;
+				width: auto;
+				height: auto;
+				float: none;
+				padding: 0;
+			}
+				.title-talk {
+					height: auto;
+					width: auto;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 30px;
+					line-height: 30px;
+					margin-left: 0;
+					margin-bottom: 20px;
+				}
+				.stroka1 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 25px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 33px;
+						margin-bottom: 20px;
+					}
+					.last-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 25px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 33px;
+					}
+				.stroka2 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.email {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 25px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 33px;
+						margin-bottom: 20px;
+					}
+					.select {
+						float: none;
+						height: auto;
+						width: 100%;
+						line-height: 33px;
+						border: 1px solid #e3f2fd;
+						font-size: 25px;
+						padding-left: 10px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 98% 50%;
+						background-size: 15px;
+					}
+				.area {
+					float: none;
+					width: calc(100% - 15px);
+					height: 75px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 25px;
+					padding-left: 10px;
+					padding-top: 10px;
+					margin-bottom: 15px;
+					resize: none;
+					word-spacing: 0;
+				}
+				.submit {
+					float: right;
+					font-family: "Montserrat SemiBold";
+					font-size: 25px;
+					width: 20%;
+					height: 35px;
+					line-height: 35px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					cursor: pointer;
+				}
+		.phone {
+			display: none;
+			position: absolute;
+			top: 110px;
+			left: 13%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 310px;
+			width: 25%;
+			height: 310px;
+		}			
+			.screen {
+				display: none;
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 100% 100%;
+				margin: 35px auto 0 auto;
+				width: 86%;
+				height: 230px;
+			}
+		.line1 {
+			display: none;
+			position: absolute;
+			top: 104px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			display: none;
+			position: absolute;
+			top: 134px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: auto;
+		font-family: "Montserrat Light";
+		margin-bottom: 15px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 20px;
+			letter-spacing: 0;
+			margin: 15px 0 15px 10%;
+		}
+		.footer-email {
+			float: right;
+			margin: 15px 10% 15px 0;
+			height: auto;
+			width: auto;
+			line-height: 20px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 25px 20px;
+				background-position: center;
+				margin-right: 5px;
+				width: 25px;
+				height: 30px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: auto;
+				font-size: 20px;
+				letter-spacing: 0;
+				line-height: normal;
+			}
+}
 @media screen and (max-width: 1024px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -2226,12 +2454,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -2281,7 +2507,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -2414,7 +2639,6 @@ body {
 			width: 45%;
 			height: 663px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -2458,7 +2682,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -2497,12 +2720,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -2553,7 +2774,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -2696,7 +2916,6 @@ body {
 			width: 45%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -2730,12 +2949,287 @@ body {
 				line-height: normal;
 			}
 }
+@media screen and (max-device-width: 800px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 28px;
+				line-height: 50px;
+				margin-left: 10%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 50px;
+				margin-right: 10%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 20px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 30px 10% 30px 10%;
+				width: auto;
+				height: auto;
+				float: !important;
+				padding: 0;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 27px;
+					color: #ffffff;
+					line-height: 27px;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 22px;
+					color: #ffffff;
+					line-height: 22px;
+					letter-spacing: 0;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 20px;
+				}
+				.form-button {
+					float: right;
+					font-family: Montserrat;
+					font-size: 14px;
+					text-align: center;
+					line-height: 30px;
+					width: 22%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 30px 10% 30px 10%;
+				width: auto;
+				height: auto;
+				float: none;
+				padding: 0;
+			}
+				.title-talk {
+					height: auto;
+					width: auto;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 27px;
+					line-height: 27px;
+					margin-left: 0;
+					margin-bottom: 20px;
+				}
+				.stroka1 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 22px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 30px;
+						margin-bottom: 20px;
+					}
+					.last-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 23px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 30px;
+					}
+				.stroka2 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.email {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 22px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 30px;
+						margin-bottom: 20px;
+					}
+					.select {
+						float: none;
+						height: auto;
+						width: 100%;
+						line-height: 30px;
+						border: 1px solid #e3f2fd;
+						font-size: 22px;
+						padding-left: 10px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 98% 50%;
+						background-size: 15px;
+					}
+				.area {
+					float: none;
+					width: calc(100% - 15px);
+					height: 70px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 22px;
+					padding-left: 10px;
+					padding-top: 10px;
+					margin-bottom: 15px;
+					resize: none;
+					word-spacing: 0;
+				}
+				.submit {
+					float: right;
+					font-family: "Montserrat SemiBold";
+					font-size: 22px;
+					width: 20%;
+					height: 33px;
+					line-height: 35px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					cursor: pointer;
+				}
+		.phone {
+			display: none;
+			position: absolute;
+			top: 110px;
+			left: 13%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 310px;
+			width: 25%;
+			height: 310px;
+		}			
+			.screen {
+				display: none;
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 100% 100%;
+				margin: 35px auto 0 auto;
+				width: 86%;
+				height: 230px;
+			}
+		.line1 {
+			display: none;
+			position: absolute;
+			top: 104px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			display: none;
+			position: absolute;
+			top: 134px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: auto;
+		font-family: "Montserrat Light";
+		margin-bottom: 15px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 17px;
+			letter-spacing: 0;
+			margin: 15px 0 15px 10%;
+		}
+		.footer-email {
+			float: right;
+			margin: 15px 10% 15px 0;
+			height: auto;
+			width: auto;
+			line-height: 17px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 23px 17px;
+				background-position: center;
+				margin-right: 5px;
+				width: 23px;
+				height: 27px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: auto;
+				font-size: 17px;
+				letter-spacing: 0;
+				line-height: normal;
+			}
+}
 @media screen and (max-width: 600px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -2774,12 +3268,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -2830,7 +3322,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -2973,7 +3464,6 @@ body {
 			width: 45%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -3012,12 +3502,287 @@ body {
 				line-height: normal;
 			}
 }
+@media screen and (max-device-width: 600px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 28px;
+				line-height: 50px;
+				margin-left: 5%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 50px;
+				margin-right: 5%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 20px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 30px 5% 30px 5%;
+				width: auto;
+				height: auto;
+				float: !important;
+				padding: 0;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 23px;
+					color: #ffffff;
+					line-height: 23px;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 18px;
+					color: #ffffff;
+					line-height: 18px;
+					letter-spacing: 0;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 20px;
+				}
+				.form-button {
+					float: right;
+					font-family: Montserrat;
+					font-size: 12px;
+					text-align: center;
+					line-height: 30px;
+					width: 28%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 30px 5% 30px 5%;
+				width: auto;
+				height: auto;
+				float: none;
+				padding: 0;
+			}
+				.title-talk {
+					height: auto;
+					width: auto;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 23px;
+					line-height: 23px;
+					margin-left: 0;
+					margin-bottom: 20px;
+				}
+				.stroka1 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 18px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 26px;
+						margin-bottom: 20px;
+					}
+					.last-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 18px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 26px;
+					}
+				.stroka2 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.email {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 18px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 26px;
+						margin-bottom: 20px;
+					}
+					.select {
+						float: none;
+						height: auto;
+						width: 100%;
+						line-height: 26px;
+						border: 1px solid #e3f2fd;
+						font-size: 18px;
+						padding-left: 10px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 98% 50%;
+						background-size: 15px;
+					}
+				.area {
+					float: none;
+					width: calc(100% - 15px);
+					height: 65px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 18px;
+					padding-left: 10px;
+					padding-top: 10px;
+					margin-bottom: 15px;
+					resize: none;
+					word-spacing: 0;
+				}
+				.submit {
+					float: right;
+					font-family: "Montserrat SemiBold";
+					font-size: 18px;
+					width: 20%;
+					height: 33px;
+					line-height: 35px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					cursor: pointer;
+				}
+		.phone {
+			display: none;
+			position: absolute;
+			top: 110px;
+			left: 13%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 310px;
+			width: 25%;
+			height: 310px;
+		}			
+			.screen {
+				display: none;
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 100% 100%;
+				margin: 35px auto 0 auto;
+				width: 86%;
+				height: 230px;
+			}
+		.line1 {
+			display: none;
+			position: absolute;
+			top: 104px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			display: none;
+			position: absolute;
+			top: 134px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: auto;
+		font-family: "Montserrat Light";
+		margin-bottom: 15px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 13px;
+			letter-spacing: 0;
+			margin: 15px 0 15px 5%;
+		}
+		.footer-email {
+			float: right;
+			margin: 15px 5% 15px 0;
+			height: auto;
+			width: auto;
+			line-height: 13px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 19px 13px;
+				background-position: center;
+				margin-right: 5px;
+				width: 19px;
+				height: 20px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: auto;
+				font-size: 13px;
+				letter-spacing: 0;
+				line-height: normal;
+			}
+}
 @media screen and (max-width: 414px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
 }
-	/*Шапка*/
 	.header {
 		background: #e94643;
 		height: auto;
@@ -3056,12 +3821,10 @@ body {
 				.contact a:hover {
 					border-bottom: 2px solid #fdd835;
 				}
-	/*Контент*/
 	.main {
 		width: 100%;
 		height: auto;
 	}
-		/*Верхний контент*/
 		.main-article {
 			width: 100%;
 			height: auto;
@@ -3112,7 +3875,6 @@ body {
 					border-radius: 5px;
 					cursor: pointer;
 				}
-		/*Нижний контент*/
 		.main-form {
 			width: 100%;
 			height: auto;
@@ -3255,7 +4017,6 @@ body {
 			width: 45%;
 			height: 763px;
 		}
-	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
@@ -3290,6 +4051,282 @@ body {
 				width: auto;
 				height: auto;
 				font-size: 10px;
+				letter-spacing: 0;
+				line-height: normal;
+			}
+}
+@media screen and (max-device-width: 414px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 24px;
+				line-height: 50px;
+				margin-left: 3%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 50px;
+				margin-right: 3%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 16px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 30px 3% 30px 3%;
+				width: auto;
+				height: auto;
+				float: !important;
+				padding: 0;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 19px;
+					color: #ffffff;
+					line-height: 19px;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 15px;
+					color: #ffffff;
+					line-height: 15px;
+					letter-spacing: 0;
+					word-spacing: 0;
+					margin-bottom: 20px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 20px;
+				}
+				.form-button {
+					float: right;
+					font-family: Montserrat;
+					font-size: 11px;
+					text-align: center;
+					line-height: 30px;
+					width: 28%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 30px 3% 30px 3%;
+				width: auto;
+				height: auto;
+				float: none;
+				padding: 0;
+			}
+				.title-talk {
+					height: auto;
+					width: auto;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 19px;
+					line-height: 19px;
+					margin-left: 0;
+					margin-bottom: 20px;
+				}
+				.stroka1 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 15px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 23px;
+						margin-bottom: 20px;
+					}
+					.last-name {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 15px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 23px;
+					}
+				.stroka2 {
+					width: auto;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.email {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 15px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 23px;
+						margin-bottom: 20px;
+					}
+					.select {
+						float: none;
+						height: auto;
+						width: 100%;
+						line-height: 23px;
+						border: 1px solid #e3f2fd;
+						font-size: 15px;
+						padding-left: 10px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 98% 50%;
+						background-size: 15px;
+					}
+				.area {
+					float: none;
+					width: calc(100% - 15px);
+					height: 60px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 15px;
+					padding-left: 10px;
+					padding-top: 10px;
+					margin-bottom: 15px;
+					resize: none;
+					word-spacing: 0;
+				}
+				.submit {
+					float: right;
+					font-family: "Montserrat SemiBold";
+					font-size: 15px;
+					width: 20%;
+					height: 33px;
+					line-height: 35px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					cursor: pointer;
+				}
+		.phone {
+			display: none;
+			position: absolute;
+			top: 110px;
+			left: 13%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 310px;
+			width: 25%;
+			height: 310px;
+		}			
+			.screen {
+				display: none;
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 100% 100%;
+				margin: 35px auto 0 auto;
+				width: 86%;
+				height: 230px;
+			}
+		.line1 {
+			display: none;
+			position: absolute;
+			top: 104px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			display: none;
+			position: absolute;
+			top: 134px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: auto;
+		font-family: "Montserrat Light";
+		margin-bottom: 15px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 11px;
+			letter-spacing: 0;
+			margin: 15px 0 15px 3%;
+		}
+		.footer-email {
+			float: right;
+			margin: 15px 3% 15px 0;
+			height: auto;
+			width: auto;
+			line-height: 11px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 17px 11px;
+				background-position: center;
+				margin-right: 5px;
+				width: 17px;
+				height: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: auto;
+				font-size: 11px;
 				letter-spacing: 0;
 				line-height: normal;
 			}
