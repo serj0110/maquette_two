@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
 body {
 	margin: 0;
 	padding: 0;
@@ -282,7 +281,1904 @@ body {
     height: 0;
 }
 /*==================================*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1920px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 14%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 90px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 40px;
+					color: #ffffff;
+					line-height: 40px;
+					margin-bottom: 25px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 26px;
+					color: #ffffff;
+					line-height: 26px;
+					letter-spacing: 1px;
+					margin-bottom: 30px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 30px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 20px;
+					text-align: center;
+					line-height: 60px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 22px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 25px;
+					line-height: 22px;
+					margin-left: 0;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 20px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 46px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 46px;
+						border: 1px solid #e3f2fd;
+						font-size: 20px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 20px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 46px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 46%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 20px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 100px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 20px;
+					padding-left: 20px;
+					padding-top: 20px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 50px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 25px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 12%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 763px;
+			width: 20%;
+			height: 763px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 110px auto 0 auto;
+				width: 86%;
+				height: 550px;
+			}
+		.line1 {
+			position: absolute;
+			top: 0px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 763px;
+			width: 40%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 95px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 763px;
+			width: 40%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 20px;
+			letter-spacing: -1px;
+			margin-left: 12%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 32px;
+			margin-right: 33.5%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 37px 32px;
+				width: 37px;
+				height: 32px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 32px;
+				font-size: 20px;
+				letter-spacing: -1px;
+				line-height: 32px;
+			}
+}
+@media screen and (max-width: 1680px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 16.5%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 90px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 35px;
+					color: #ffffff;
+					line-height: 30px;
+					margin-bottom: 30px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 23px;
+					color: #ffffff;
+					line-height: 23px;
+					letter-spacing: 1px;
+					margin-bottom: 30px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 30px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 16px;
+					text-align: center;
+					line-height: 51px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 16px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 20px;
+					line-height: 17px;
+					margin-left: 4.5%;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 46.5%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 80px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 16px;
+					padding-left: 20px;
+					padding-top: 10px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 44px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 20px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 14.2%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 763px;
+			width: 22%;
+			height: 763px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 110px auto 0 auto;
+				width: 86%;
+				height: 550px;
+			}
+		.line1 {
+			position: absolute;
+			top: -35px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 57px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 16px;
+			letter-spacing: -1px;
+			margin-left: 14%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 24px;
+			margin-right: 34%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 31px 26px;
+				width: 31px;
+				height: 26px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 24px;
+				font-size: 16px;
+				letter-spacing: -1px;
+				line-height: 24px;
+			}
+}
+@media screen and (max-width: 1600px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 16.5%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 90px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 35px;
+					color: #ffffff;
+					line-height: 30px;
+					margin-bottom: 30px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 23px;
+					color: #ffffff;
+					line-height: 23px;
+					letter-spacing: 1px;
+					margin-bottom: 30px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 30px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 16px;
+					text-align: center;
+					line-height: 51px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 16px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 20px;
+					line-height: 17px;
+					margin-left: 4.5%;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 46.5%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 80px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 16px;
+					padding-left: 20px;
+					padding-top: 10px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 44px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 20px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 14.2%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 763px;
+			width: 22%;
+			height: 763px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 110px auto 0 auto;
+				width: 86%;
+				height: 550px;
+			}
+		.line1 {
+			position: absolute;
+			top: -35px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 57px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45.7%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 16px;
+			letter-spacing: -1px;
+			margin-left: 14%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 24px;
+			margin-right: 31%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 31px 26px;
+				width: 31px;
+				height: 26px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 24px;
+				font-size: 16px;
+				letter-spacing: -1px;
+				line-height: 24px;
+			}
+}
+@media screen and (max-width: 1440px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 16.5%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 95px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 31px;
+					color: #ffffff;
+					line-height: 31px;
+					margin-bottom: 30px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 20px;
+					color: #ffffff;
+					line-height: 20px;
+					letter-spacing: 1px;
+					margin-bottom: 30px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 30px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 16px;
+					text-align: center;
+					line-height: 51px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 16px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 20px;
+					line-height: 17px;
+					margin-left: 4.5%;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 46.5%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 80px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 16px;
+					padding-left: 20px;
+					padding-top: 10px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 44px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 20px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 14.2%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 763px;
+			width: 22%;
+			height: 763px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 110px auto 0 auto;
+				width: 86%;
+				height: 550px;
+			}
+		.line1 {
+			position: absolute;
+			top: -35px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 57px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45.7%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 16px;
+			letter-spacing: -1px;
+			margin-left: 14%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 24px;
+			margin-right: 32%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 31px 26px;
+				width: 31px;
+				height: 26px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 24px;
+				font-size: 16px;
+				letter-spacing: -1px;
+				line-height: 24px;
+			}
+}
+@media screen and (max-width: 1366px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 16.5%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 100px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 29px;
+					color: #ffffff;
+					line-height: 29px;
+					margin-bottom: 30px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 20px;
+					color: #ffffff;
+					line-height: 20px;
+					letter-spacing: 1px;
+					margin-bottom: 30px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 30px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 16px;
+					text-align: center;
+					line-height: 51px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 16px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 20px;
+					line-height: 17px;
+					margin-left: 4.5%;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 46.5%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 80px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 16px;
+					padding-left: 20px;
+					padding-top: 10px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 44px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 20px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 14.2%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 763px;
+			width: 22%;
+			height: 763px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 110px auto 0 auto;
+				width: 86%;
+				height: 550px;
+			}
+		.line1 {
+			position: absolute;
+			top: -35px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 57px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 763px;
+			width: 45.7%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 16px;
+			letter-spacing: -1px;
+			margin-left: 14%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 24px;
+			margin-right: 32%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 31px 26px;
+				width: 31px;
+				height: 26px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 24px;
+				font-size: 16px;
+				letter-spacing: -1px;
+				line-height: 24px;
+			}
+}
+@media screen and (max-width: 1280px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 16.5%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 111px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 28px;
+					color: #ffffff;
+					line-height: 30px;
+					margin-bottom: 28px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 18px;
+					color: #ffffff;
+					line-height: 20px;
+					letter-spacing: 1px;
+					margin-bottom: 25px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 23px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 16px;
+					text-align: center;
+					line-height: 51px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 16px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 20px;
+					line-height: 17px;
+					margin-left: 4.5%;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 47.5%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 80px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 16px;
+					padding-left: 20px;
+					padding-top: 10px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 44px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 20px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 14.2%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 763px;
+			width: 28.7%;
+			height: 763px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 110px auto 0 auto;
+				width: 86%;
+				height: 550px;
+			}
+		.line1 {
+			position: absolute;
+			top: -35px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 763px;
+			width: 49%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 57px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 763px;
+			width: 49.7%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 16px;
+			letter-spacing: -1px;
+			margin-left: 14%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 24px;
+			margin-right: 31%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 31px 26px;
+				width: 31px;
+				height: 26px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 24px;
+				font-size: 16px;
+				letter-spacing: -1px;
+				line-height: 24px;
+			}
+}
+@media screen and (max-width: 1024px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 32px;
+				line-height: 75px;
+				margin-left: 13%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 75px;
+				margin-right: 5.7%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 165px 9.5% 30px 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px 10px;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 22px;
+					color: #ffffff;
+					line-height: 30px;
+					margin-bottom: 28px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 16px;
+					color: #ffffff;
+					line-height: 20px;
+					letter-spacing: 1px;
+					margin-bottom: 25px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 23px;
+				}
+				.form-button {
+					float: right;
+					margin-right: 0.6%;
+					font-family: Montserrat;
+					font-size: 16px;
+					text-align: center;
+					line-height: 51px;
+					width: 33%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 20px 9.5% 0 0;
+				width: 37.4%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 16px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 20px;
+					line-height: 17px;
+					margin-left: 4.5%;
+					margin-bottom: 17px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 20px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						width: 43%;
+						line-height: 42px;
+					}
+					.select {
+						float: right;
+						height: 46px;
+						width: 47.5%;
+						line-height: 42px;
+						border: 1px solid #e3f2fd;
+						font-size: 16px;
+						padding-left: 20px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+					}
+				.area {
+					float: left;
+					width: calc(100% - 25px);
+					height: 80px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 16px;
+					padding-left: 20px;
+					padding-top: 10px;
+					margin-bottom: 12px;
+					resize: none;
+				}
+				.submit {
+					float: right;
+					width: 25%;
+					height: 44px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					font-size: 20px;
+					font-family: "Montserrat SemiBold";
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 153px;
+			left: 10%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 643px;
+			width: 28.7%;
+			height: 643px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 99% 99%;
+				margin: 90px auto 0 auto;
+				width: 86%;
+				height: 465px;
+			}
+		.line1 {
+			position: absolute;
+			top: -27px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 663px;
+			width: 45%;
+			height: 663px;
+		}
+		.line2 {
+			position: absolute;
+			top: 55px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 663px;
+			width: 45%;
+			height: 663px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 70px;
+		font-family: "Montserrat Light";
+		margin-bottom: 20px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 16px;
+			letter-spacing: -1px;
+			margin-left: 10%;
+			margin-top: 19px;
+		}
+		.footer-email {
+			float: right;
+			width: auto;
+			height: 24px;
+			margin-right: 26%;
+			margin-top: 19px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 31px 26px;
+				width: 31px;
+				height: 26px;
+				margin-right: 18px;
+			}
+			.footer-email-text {
+				float: right;
+				width: auto;
+				height: 24px;
+				font-size: 16px;
+				letter-spacing: -1px;
+				line-height: 24px;
+			}
+}
+@media screen and (max-width: 800px) {
 	.page-wrapper {
 	width: 100%;
 	height: auto;
@@ -307,7 +2203,7 @@ body {
 				color: #ffffff;
 				font-size: 25px;
 				line-height: 50px;
-				margin-left: 5%;
+				margin-left: 15%;
 				float: left;
 				letter-spacing: 1px;
 			}
@@ -338,8 +2234,552 @@ body {
 			background: #ef5350;
 		}
 			.article-form {
-				margin: 83px 0 56px 0;
-				width: 37.4%;
+				margin: 60px 4% 15px 0;
+				width: 45%;
+				height: auto;
+				float: right;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 20px;
+					color: #ffffff;
+					line-height: 20px;
+					word-spacing: -1px;
+					margin-bottom: 15px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 14px;
+					color: #ffffff;
+					line-height: 14px;
+					letter-spacing: 0;
+					word-spacing: -1px;
+					margin-bottom: 15px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 15px;
+				}
+				.form-button {
+					float: right;
+					font-family: Montserrat;
+					font-size: 14px;
+					text-align: center;
+					line-height: 30px;
+					width: 40%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 10px 4% 0 0;
+				width: 45%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 15px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 17px;
+					line-height: 17px;
+					margin-left: 0;
+					margin-bottom: 10px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 10px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 14px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: 42%;
+						line-height: 22px;
+						margin-bottom: 0;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 14px;
+						padding-left: 10;
+						border-radius: 5px;
+						width: 42%;
+						line-height: 22px;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 10px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 14px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: 42%;
+						line-height: 22px;
+						margin-bottom: 0;
+					}
+					.select {
+						float: right;
+						height: 25px;
+						width: calc(42% + 20px);
+						line-height: 22px;
+						border: 1px solid #e3f2fd;
+						font-size: 14px;
+						padding-left: 10px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+						background-size: 12px;
+					}
+				.area {
+					float: none;
+					width: calc(100% - 15px);
+					height: 50px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 14px;
+					padding-left: 10px;
+					padding-top: 10px;
+					margin-bottom: 8px;
+					resize: none;
+					word-spacing: -3px;
+				}
+				.submit {
+					float: right;
+					font-family: "Montserrat SemiBold";
+					font-size: 18px;
+					width: 20%;
+					height: 28px;
+					line-height: 28px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 110px;
+			left: 13%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 310px;
+			width: 25%;
+			height: 310px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 100% 100%;
+				margin: 35px auto 0 auto;
+				width: 86%;
+				height: 230px;
+			}
+		.line1 {
+			position: absolute;
+			top: 104px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 134px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 20px;
+		font-family: "Montserrat Light";
+		margin-bottom: 10px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 12px;
+			letter-spacing: -1px;
+			margin-left: 13%;
+			margin-top: 10px;
+		}
+		.footer-email {
+			float: right;
+			margin-right: 34%;
+			margin-top: 10px;
+			height: 16px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 21px 16px;
+				width: 21px;
+				margin-right: 5px;
+			}
+			.footer-email-text {
+				float: right;
+				font-size: 10px;
+				letter-spacing: -1px;
+				line-height: 16px;
+			}
+}
+@media screen and (max-width: 600px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 25px;
+				line-height: 50px;
+				margin-left: 12%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 50px;
+				margin-right: 5%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 60px 4% 15px 0;
+				width: 42%;
+				height: auto;
+				float: right;
+			}
+				.form-title {
+					width: auto;
+					height: auto;
+					font-family: Montserrat;
+					font-size: 15px;
+					color: #ffffff;
+					line-height: 15px;
+					word-spacing: -1px;
+					margin-bottom: 15px;
+				}
+				.form-article {
+					width: auto;
+					height: auto;
+					font-family: "Montserrat Ultra Light";
+					font-size: 11px;
+					color: #ffffff;
+					line-height: 10px;
+					letter-spacing: 0;
+					word-spacing: -1px;
+					margin-bottom: 15px;
+				}
+				.line {
+					border: 1px dashed #e94643;
+					margin-bottom: 15px;
+				}
+				.form-button {
+					float: right;
+					font-family: Montserrat;
+					font-size: 10px;
+					text-align: center;
+					line-height: 20px;
+					width: 40%;
+					height: auto;
+					background: #04e4a2;
+					color: #ffffff;
+					border-radius: 5px;
+					cursor: pointer;
+				}
+		/*Нижний контент*/
+		.main-form {
+			width: 100%;
+			height: auto;
+			background: #ffffff;
+		}
+			.talk-form {
+				margin: 0 4% 0 0;
+				width: 42%;
+				height: auto;
+				float: right;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+				.title-talk {
+					height: 15px;
+					color: #ff8a80;
+					font-family: "Montserrat Light";
+					font-size: 15px;
+					line-height: 15px;
+					margin-left: 0;
+					margin-bottom: 5px;
+				}
+				.stroka1 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 5px;
+				}
+					.first-name {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 10px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: 42%;
+						line-height: 20px;
+						margin-bottom: 5px;
+					}
+					.last-name {
+						float: right;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 10px;
+						padding-left: 10;
+						border-radius: 5px;
+						width: 42%;
+						line-height: 20px;
+					}
+				.stroka2 {
+					width: 100%;
+					height: auto;
+					margin-bottom: 5px;
+				}
+					.email {
+						float: left;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 10px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: 42%;
+						line-height: 20px;
+						margin-bottom: 5px;
+					}
+					.select {
+						float: right;
+						height: 25px;
+						width: calc(42% + 20px);
+						line-height: 20px;
+						border: 1px solid #e3f2fd;
+						font-size: 10px;
+						padding-left: 10px;
+						border-radius: 5px;
+						-webkit-appearance: none;
+						background: #ffffff url(select.png) no-repeat;
+						background-position: 90% 50%;
+						background-size: 12px;
+					}
+				.area {
+					float: none;
+					width: calc(100% - 15px);
+					height: 50px;
+					border: 1px solid #e3f2fd;
+					border-radius: 5px;
+					font-size: 13px;
+					padding-left: 10px;
+					padding-top: 10px;
+					margin-bottom: 8px;
+					resize: none;
+					word-spacing: -3px;
+				}
+				.submit {
+					float: right;
+					font-family: "Montserrat SemiBold";
+					font-size: 18px;
+					width: 40%;
+					height: 25px;
+					line-height: 25px;
+					border-radius: 5px;
+					background: #ef5350;
+					border: 0;
+					color: #ffffff;
+					cursor: pointer;
+				}
+		.phone {
+			position: absolute;
+			top: 110px;
+			left: 10%;
+			background: url(phone.png) no-repeat;
+			background-size: 100% 280px;
+			width: 25%;
+			height: 280px;
+		}
+			.screen {
+				position: relative;
+				background: url(screen.png) no-repeat;
+				background-size: 100% 100%;
+				margin: 35px auto 0 auto;
+				width: 86%;
+				height: 210px;
+			}
+		.line1 {
+			position: absolute;
+			top: 87px;
+			background: url(line1.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+		.line2 {
+			position: absolute;
+			top: 117px;
+			background: url(line2.png) no-repeat;
+			background-size: 100% 250px;
+			width: 45%;
+			height: 763px;
+		}
+	/*Низ*/
+	.footer {
+		background: #fefcf2;
+		width: 100%;
+		height: 20px;
+		font-family: "Montserrat Light";
+		margin-bottom: 10px;
+	}
+		.footer-year {
+			float: left;
+			font-size: 12px;
+			letter-spacing: -1px;
+			margin-left: 10%;
+			margin-top: 10px;
+		}
+		.footer-email {
+			float: right;
+			margin-right: 26%;
+			margin-top: 10px;
+			height: 16px;
+		}
+			.footer-email-image {
+				float: left;
+				background: url(mail.png) no-repeat;
+				background-size: 21px 16px;
+				width: 21px;
+				margin-right: 5px;
+			}
+			.footer-email-text {
+				float: right;
+				font-size: 10px;
+				letter-spacing: -1px;
+				line-height: 16px;
+			}
+}
+@media screen and (max-width: 414px) {
+	.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+	/*Шапка*/
+	.header {
+		background: #e94643;
+		height: auto;
+	}
+		.header-bar1 {
+			background: #04e4a2;
+			width: 100%;
+			height: 20px;
+		}
+		.header-bar2 {
+			width: 100%;
+			height: auto;
+		}
+			.logo {
+				font-family: Montserrat;
+				font-weight: bold;
+				color: #ffffff;
+				font-size: 25px;
+				line-height: 50px;
+				margin-left: 8%;
+				float: left;
+				letter-spacing: 1px;
+			}
+			.contact {
+				line-height: 50px;
+				margin-right: 5%;
+				float: right;
+			}
+				.contact a {
+					color: #ffffff;
+					text-decoration: none;
+					font-family: "Gotham Book";
+					font-size: 17px;
+					letter-spacing: -1px;
+				}
+				.contact a:hover {
+					border-bottom: 2px solid #fdd835;
+				}
+	/*Контент*/
+	.main {
+		width: 100%;
+		height: auto;
+	}
+		/*Верхний контент*/
+		.main-article {
+			width: 100%;
+			height: auto;
+			background: #ef5350;
+		}
+			.article-form {
+				margin: 60px 0 15px 0;
+				width: 42%;
 				height: auto;
 				float: right;
 			}
@@ -388,8 +2828,8 @@ body {
 			background: #ffffff;
 		}
 			.talk-form {
-				margin: 20px 0 0 0;
-				width: 37.4%;
+				margin: 0;
+				width: 42%;
 				height: auto;
 				float: right;
 				padding: 10px;
@@ -402,12 +2842,12 @@ body {
 					font-size: 15px;
 					line-height: 15px;
 					margin-left: 0;
-					margin-bottom: 10px;
+					margin-bottom: 5px;
 				}
 				.stroka1 {
 					width: 100%;
 					height: auto;
-					margin-bottom: 10px;
+					margin-bottom: 5px;
 				}
 					.first-name {
 						float: none;
@@ -418,7 +2858,7 @@ body {
 						border-radius: 5px;
 						width: 100%;
 						line-height: 20px;
-						margin-bottom: 10px;
+						margin-bottom: 5px;
 					}
 					.last-name {
 						float: none;
@@ -433,7 +2873,7 @@ body {
 				.stroka2 {
 					width: 100%;
 					height: auto;
-					margin-bottom: 10px;
+					margin-bottom: 5px;
 				}
 					.email {
 						float: none;
@@ -444,7 +2884,7 @@ body {
 						border-radius: 5px;
 						width: 100%;
 						line-height: 20px;
-						margin-bottom: 10px;
+						margin-bottom: 5px;
 					}
 					.select {
 						float: none;
@@ -469,7 +2909,7 @@ body {
 					font-size: 10px;
 					padding-left: 10px;
 					padding-top: 5px;
-					margin-bottom: 12px;
+					margin-bottom: 8px;
 					resize: none;
 					word-spacing: -3px;
 				}
@@ -486,40 +2926,36 @@ body {
 					cursor: pointer;
 				}
 		.phone {
-			display: none;
 			position: absolute;
-			top: 223px;
-			left: 2%;
+			top: 110px;
+			left: 7%;
 			background: url(phone.png) no-repeat;
-			background-size: 100% 250px;
-			width: 50%;
-			height: 250px;
+			background-size: 100% 280px;
+			width: 35%;
+			height: 280px;
 		}
 			.screen {
-				display: none;
 				position: relative;
 				background: url(screen.png) no-repeat;
 				background-size: 100% 100%;
 				margin: 35px auto 0 auto;
 				width: 86%;
-				height: 180px;
+				height: 210px;
 			}
 		.line1 {
-			display: none;
 			position: absolute;
-			top: -35px;
+			top: 82px;
 			background: url(line1.png) no-repeat;
 			background-size: 100% 250px;
-			width: 49%;
+			width: 53%;
 			height: 763px;
 		}
 		.line2 {
-			display: none;
 			position: absolute;
-			top: 57px;
+			top: 110px;
 			background: url(line2.png) no-repeat;
 			background-size: 100% 250px;
-			width: 49.7%;
+			width: 53%;
 			height: 763px;
 		}
 	/*Низ*/
@@ -534,12 +2970,12 @@ body {
 			float: left;
 			font-size: 12px;
 			letter-spacing: -1px;
-			margin-left: 2%;
+			margin-left: 8%;
 			margin-top: 10px;
 		}
 		.footer-email {
 			float: right;
-			margin-right: 2%;
+			margin-right: 10%;
 			margin-top: 10px;
 			height: 16px;
 		}
@@ -552,7 +2988,7 @@ body {
 			}
 			.footer-email-text {
 				float: right;
-				font-size: 12px;
+				font-size: 10px;
 				letter-spacing: -1px;
 				line-height: 16px;
 			}
