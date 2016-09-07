@@ -2474,13 +2474,13 @@ body {
 				color: #ffffff;
 				font-size: 25px;
 				line-height: 50px;
-				margin-left: 15%;
+				margin-left: 10%;
 				float: left;
 				letter-spacing: 1px;
 			}
 			.contact {
 				line-height: 50px;
-				margin-right: 5%;
+				margin-right: 10%;
 				float: right;
 			}
 				.contact a {
@@ -2505,30 +2505,31 @@ body {
 			background: #ef5350;
 		}
 			.article-form {
-				margin: 60px 4% 15px 0;
-				width: 45%;
+				margin: 30px 10% 30px 10%;
+				width: auto;
 				height: auto;
-				float: right;
+				float: !important;
+				padding: 0;
 			}
 				.form-title {
 					width: auto;
 					height: auto;
 					font-family: Montserrat;
-					font-size: 20px;
+					font-size: 22px;
 					color: #ffffff;
-					line-height: 20px;
-					word-spacing: -1px;
+					line-height: 22px;
+					word-spacing: 0;
 					margin-bottom: 15px;
 				}
 				.form-article {
 					width: auto;
 					height: auto;
 					font-family: "Montserrat Ultra Light";
-					font-size: 14px;
+					font-size: 17px;
 					color: #ffffff;
-					line-height: 14px;
+					line-height: 17px;
 					letter-spacing: 0;
-					word-spacing: -1px;
+					word-spacing: 0;
 					margin-bottom: 15px;
 				}
 				.line {
@@ -2538,10 +2539,10 @@ body {
 				.form-button {
 					float: right;
 					font-family: Montserrat;
-					font-size: 14px;
+					font-size: 13px;
 					text-align: center;
 					line-height: 30px;
-					width: 40%;
+					width: 20%;
 					height: auto;
 					background: #04e4a2;
 					color: #ffffff;
@@ -2555,77 +2556,77 @@ body {
 			background: #ffffff;
 		}
 			.talk-form {
-				margin: 10px 4% 0 0;
-				width: 45%;
+				margin: 30px 10% 30px 10%;
+				width: auto;
 				height: auto;
-				float: right;
-				padding: 10px;
-				margin-bottom: 20px;
+				float: none;
+				padding: 0;
 			}
 				.title-talk {
-					height: 15px;
+					height: auto;
+					width: auto;
 					color: #ff8a80;
 					font-family: "Montserrat Light";
-					font-size: 17px;
-					line-height: 17px;
+					font-size: 22px;
+					line-height: 22px;
 					margin-left: 0;
-					margin-bottom: 10px;
+					margin-bottom: 15px;
 				}
 				.stroka1 {
-					width: 100%;
+					width: auto;
 					height: auto;
-					margin-bottom: 10px;
+					margin-bottom: 15px;
 				}
 					.first-name {
-						float: left;
+						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 14px;
+						font-size: 17px;
 						padding-left: 10px;
 						border-radius: 5px;
-						width: 42%;
-						line-height: 22px;
-						margin-bottom: 0;
+						width: calc(100% - 12px);
+						line-height: 25px;
+						margin-bottom: 15px;
 					}
 					.last-name {
-						float: right;
+						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 14px;
-						padding-left: 10;
-						border-radius: 5px;
-						width: 42%;
-						line-height: 22px;
-					}
-				.stroka2 {
-					width: 100%;
-					height: auto;
-					margin-bottom: 10px;
-				}
-					.email {
-						float: left;
-						height: auto;
-						border: 1px solid #e3f2fd;
-						font-size: 14px;
+						font-size: 17px;
 						padding-left: 10px;
 						border-radius: 5px;
-						width: 42%;
-						line-height: 22px;
-						margin-bottom: 0;
+						width: calc(100% - 12px);
+						line-height: 25px;
+					}
+				.stroka2 {
+					width: auto;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 17px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 25px;
+						margin-bottom: 15px;
 					}
 					.select {
-						float: right;
-						height: 25px;
-						width: calc(42% + 20px);
-						line-height: 22px;
+						float: none;
+						height: auto;
+						width: 100%;
+						line-height: 25px;
 						border: 1px solid #e3f2fd;
-						font-size: 14px;
+						font-size: 17px;
 						padding-left: 10px;
 						border-radius: 5px;
 						-webkit-appearance: none;
 						background: #ffffff url(select.png) no-repeat;
 						background-position: 90% 50%;
-						background-size: 12px;
+						background-size: 15px;
 					}
 				.area {
 					float: none;
@@ -2633,20 +2634,20 @@ body {
 					height: 50px;
 					border: 1px solid #e3f2fd;
 					border-radius: 5px;
-					font-size: 14px;
+					font-size: 17px;
 					padding-left: 10px;
 					padding-top: 10px;
-					margin-bottom: 8px;
+					margin-bottom: 15px;
 					resize: none;
-					word-spacing: -3px;
+					word-spacing: 0;
 				}
 				.submit {
 					float: right;
 					font-family: "Montserrat SemiBold";
-					font-size: 18px;
+					font-size: 25px;
 					width: 20%;
-					height: 28px;
-					line-height: 28px;
+					height: 35px;
+					line-height: 35px;
 					border-radius: 5px;
 					background: #ef5350;
 					border: 0;
@@ -2654,6 +2655,7 @@ body {
 					cursor: pointer;
 				}
 		.phone {
+			display: none;
 			position: absolute;
 			top: 110px;
 			left: 13%;
@@ -2662,7 +2664,9 @@ body {
 			width: 25%;
 			height: 310px;
 		}
+			
 			.screen {
+				display: none;
 				position: relative;
 				background: url(screen.png) no-repeat;
 				background-size: 100% 100%;
@@ -2671,6 +2675,7 @@ body {
 				height: 230px;
 			}
 		.line1 {
+			display: none;
 			position: absolute;
 			top: 104px;
 			background: url(line1.png) no-repeat;
@@ -2679,6 +2684,7 @@ body {
 			height: 763px;
 		}
 		.line2 {
+			display: none;
 			position: absolute;
 			top: 134px;
 			background: url(line2.png) no-repeat;
@@ -2690,35 +2696,34 @@ body {
 	.footer {
 		background: #fefcf2;
 		width: 100%;
-		height: 20px;
+		height: auto;
 		font-family: "Montserrat Light";
 		margin-bottom: 10px;
 	}
 		.footer-year {
 			float: left;
-			font-size: 12px;
-			letter-spacing: -1px;
-			margin-left: 13%;
-			margin-top: 10px;
+			font-size: 17px;
+			letter-spacing: 0;
+			margin: 10px 0 10px 10%;
 		}
 		.footer-email {
 			float: right;
-			margin-right: 34%;
-			margin-top: 10px;
-			height: 16px;
+			margin: 10px 10% 10px 0;
+			height: auto;
+			width: auto;
 		}
 			.footer-email-image {
 				float: left;
 				background: url(mail.png) no-repeat;
-				background-size: 21px 16px;
-				width: 21px;
+				background-size: 20px 17px;
+				background-position: center;
 				margin-right: 5px;
 			}
 			.footer-email-text {
 				float: right;
-				font-size: 10px;
-				letter-spacing: -1px;
-				line-height: 16px;
+				font-size: 17px;
+				letter-spacing: 0;
+				line-height: normal;
 			}
 }
 @media screen and (max-width: 600px) {
@@ -2744,22 +2749,22 @@ body {
 				font-family: Montserrat;
 				font-weight: bold;
 				color: #ffffff;
-				font-size: 25px;
+				font-size: 23px;
 				line-height: 50px;
-				margin-left: 12%;
+				margin-left: 10%;
 				float: left;
-				letter-spacing: 1px;
+				letter-spacing: 0;
 			}
 			.contact {
 				line-height: 50px;
-				margin-right: 5%;
+				margin-right: 10%;
 				float: right;
 			}
 				.contact a {
 					color: #ffffff;
 					text-decoration: none;
 					font-family: "Gotham Book";
-					font-size: 17px;
+					font-size: 15px;
 					letter-spacing: -1px;
 				}
 				.contact a:hover {
@@ -2777,30 +2782,31 @@ body {
 			background: #ef5350;
 		}
 			.article-form {
-				margin: 60px 4% 15px 0;
-				width: 42%;
+				margin: 30px 10% 30px 10%;
+				width: auto;
 				height: auto;
-				float: right;
+				float: !important;
+				padding: 0;
 			}
 				.form-title {
 					width: auto;
 					height: auto;
 					font-family: Montserrat;
-					font-size: 15px;
+					font-size: 16px;
 					color: #ffffff;
-					line-height: 15px;
-					word-spacing: -1px;
+					line-height: 16px;
+					word-spacing: 0;
 					margin-bottom: 15px;
 				}
 				.form-article {
 					width: auto;
 					height: auto;
 					font-family: "Montserrat Ultra Light";
-					font-size: 11px;
+					font-size: 15px;
 					color: #ffffff;
-					line-height: 10px;
+					line-height: 15px;
 					letter-spacing: 0;
-					word-spacing: -1px;
+					word-spacing: 0;
 					margin-bottom: 15px;
 				}
 				.line {
@@ -2812,8 +2818,8 @@ body {
 					font-family: Montserrat;
 					font-size: 10px;
 					text-align: center;
-					line-height: 20px;
-					width: 40%;
+					line-height: 30px;
+					width: 23%;
 					height: auto;
 					background: #04e4a2;
 					color: #ffffff;
@@ -2827,77 +2833,77 @@ body {
 			background: #ffffff;
 		}
 			.talk-form {
-				margin: 0 4% 0 0;
-				width: 42%;
+				margin: 30px 10% 30px 10%;
+				width: auto;
 				height: auto;
-				float: right;
-				padding: 10px;
-				margin-bottom: 20px;
+				float: none;
+				padding: 0;
 			}
 				.title-talk {
-					height: 15px;
+					height: auto;
+					width: auto;
 					color: #ff8a80;
 					font-family: "Montserrat Light";
-					font-size: 15px;
-					line-height: 15px;
+					font-size: 17px;
+					line-height: 17px;
 					margin-left: 0;
-					margin-bottom: 5px;
+					margin-bottom: 15px;
 				}
 				.stroka1 {
-					width: 100%;
+					width: auto;
 					height: auto;
-					margin-bottom: 5px;
+					margin-bottom: 15px;
 				}
 					.first-name {
-						float: left;
+						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
+						font-size: 15px;
 						padding-left: 10px;
 						border-radius: 5px;
-						width: 42%;
-						line-height: 20px;
-						margin-bottom: 5px;
+						width: calc(100% - 12px);
+						line-height: 23px;
+						margin-bottom: 15px;
 					}
 					.last-name {
-						float: right;
+						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
-						padding-left: 10;
-						border-radius: 5px;
-						width: 42%;
-						line-height: 20px;
-					}
-				.stroka2 {
-					width: 100%;
-					height: auto;
-					margin-bottom: 5px;
-				}
-					.email {
-						float: left;
-						height: auto;
-						border: 1px solid #e3f2fd;
-						font-size: 10px;
+						font-size: 15px;
 						padding-left: 10px;
 						border-radius: 5px;
-						width: 42%;
-						line-height: 20px;
-						margin-bottom: 5px;
+						width: calc(100% - 12px);
+						line-height: 23px;
+					}
+				.stroka2 {
+					width: auto;
+					height: auto;
+					margin-bottom: 15px;
+				}
+					.email {
+						float: none;
+						height: auto;
+						border: 1px solid #e3f2fd;
+						font-size: 15px;
+						padding-left: 10px;
+						border-radius: 5px;
+						width: calc(100% - 12px);
+						line-height: 23px;
+						margin-bottom: 15px;
 					}
 					.select {
-						float: right;
-						height: 25px;
-						width: calc(42% + 20px);
-						line-height: 20px;
+						float: none;
+						height: auto;
+						width: 100%;
+						line-height: 23px;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
+						font-size: 15px;
 						padding-left: 10px;
 						border-radius: 5px;
 						-webkit-appearance: none;
 						background: #ffffff url(select.png) no-repeat;
 						background-position: 90% 50%;
-						background-size: 12px;
+						background-size: 15px;
 					}
 				.area {
 					float: none;
@@ -2905,19 +2911,19 @@ body {
 					height: 50px;
 					border: 1px solid #e3f2fd;
 					border-radius: 5px;
-					font-size: 13px;
+					font-size: 15px;
 					padding-left: 10px;
 					padding-top: 10px;
-					margin-bottom: 8px;
+					margin-bottom: 15px;
 					resize: none;
-					word-spacing: -3px;
+					word-spacing: 0;
 				}
 				.submit {
 					float: right;
 					font-family: "Montserrat SemiBold";
-					font-size: 18px;
-					width: 40%;
-					height: 25px;
+					font-size: 15px;
+					width: 20%;
+					height: 35px;
 					line-height: 25px;
 					border-radius: 5px;
 					background: #ef5350;
@@ -2926,33 +2932,38 @@ body {
 					cursor: pointer;
 				}
 		.phone {
+			display: none;
 			position: absolute;
 			top: 110px;
-			left: 10%;
+			left: 13%;
 			background: url(phone.png) no-repeat;
-			background-size: 100% 280px;
+			background-size: 100% 310px;
 			width: 25%;
-			height: 280px;
+			height: 310px;
 		}
+			
 			.screen {
+				display: none;
 				position: relative;
 				background: url(screen.png) no-repeat;
 				background-size: 100% 100%;
 				margin: 35px auto 0 auto;
 				width: 86%;
-				height: 210px;
+				height: 230px;
 			}
 		.line1 {
+			display: none;
 			position: absolute;
-			top: 87px;
+			top: 104px;
 			background: url(line1.png) no-repeat;
 			background-size: 100% 250px;
 			width: 45%;
 			height: 763px;
 		}
 		.line2 {
+			display: none;
 			position: absolute;
-			top: 117px;
+			top: 134px;
 			background: url(line2.png) no-repeat;
 			background-size: 100% 250px;
 			width: 45%;
@@ -2962,35 +2973,39 @@ body {
 	.footer {
 		background: #fefcf2;
 		width: 100%;
-		height: 20px;
+		height: auto;
 		font-family: "Montserrat Light";
 		margin-bottom: 10px;
 	}
 		.footer-year {
 			float: left;
-			font-size: 12px;
-			letter-spacing: -1px;
-			margin-left: 10%;
-			margin-top: 10px;
+			font-size: 10px;
+			letter-spacing: 0;
+			margin: 10px 0 10px 10%;
 		}
 		.footer-email {
 			float: right;
-			margin-right: 26%;
-			margin-top: 10px;
-			height: 16px;
+			margin: 10px 10% 10px 0;
+			height: auto;
+			width: auto;
+			line-height: 10px;
 		}
 			.footer-email-image {
 				float: left;
 				background: url(mail.png) no-repeat;
-				background-size: 21px 16px;
-				width: 21px;
+				background-size: 17px 13px;
+				background-position: center;
 				margin-right: 5px;
+				width: 17px;
+				height: 15px;
 			}
 			.footer-email-text {
 				float: right;
+				width: auto;
+				height: auto;
 				font-size: 10px;
-				letter-spacing: -1px;
-				line-height: 16px;
+				letter-spacing: 0;
+				line-height: normal;
 			}
 }
 @media screen and (max-width: 414px) {
@@ -3016,22 +3031,22 @@ body {
 				font-family: Montserrat;
 				font-weight: bold;
 				color: #ffffff;
-				font-size: 25px;
+				font-size: 20px;
 				line-height: 50px;
-				margin-left: 8%;
+				margin-left: 10%;
 				float: left;
-				letter-spacing: 1px;
+				letter-spacing: 0;
 			}
 			.contact {
 				line-height: 50px;
-				margin-right: 5%;
+				margin-right: 10%;
 				float: right;
 			}
 				.contact a {
 					color: #ffffff;
 					text-decoration: none;
 					font-family: "Gotham Book";
-					font-size: 17px;
+					font-size: 13px;
 					letter-spacing: -1px;
 				}
 				.contact a:hover {
@@ -3049,30 +3064,31 @@ body {
 			background: #ef5350;
 		}
 			.article-form {
-				margin: 60px 0 15px 0;
-				width: 42%;
+				margin: 30px 10% 30px 10%;
+				width: auto;
 				height: auto;
-				float: right;
+				float: !important;
+				padding: 0;
 			}
 				.form-title {
 					width: auto;
 					height: auto;
 					font-family: Montserrat;
-					font-size: 10px;
+					font-size: 14px;
 					color: #ffffff;
-					line-height: 15px;
-					word-spacing: -1px;
+					line-height: 14px;
+					word-spacing: 0;
 					margin-bottom: 15px;
 				}
 				.form-article {
 					width: auto;
 					height: auto;
 					font-family: "Montserrat Ultra Light";
-					font-size: 10px;
+					font-size: 12px;
 					color: #ffffff;
-					line-height: 10px;
+					line-height: 12px;
 					letter-spacing: 0;
-					word-spacing: -1px;
+					word-spacing: 0;
 					margin-bottom: 15px;
 				}
 				.line {
@@ -3080,12 +3096,12 @@ body {
 					margin-bottom: 15px;
 				}
 				.form-button {
-					float: none;
+					float: right;
 					font-family: Montserrat;
-					font-size: 10px;
+					font-size: 8px;
 					text-align: center;
-					line-height: 20px;
-					width: 100%;
+					line-height: 30px;
+					width: 25%;
 					height: auto;
 					background: #04e4a2;
 					color: #ffffff;
@@ -3099,97 +3115,98 @@ body {
 			background: #ffffff;
 		}
 			.talk-form {
-				margin: 0;
-				width: 42%;
+				margin: 30px 10% 30px 10%;
+				width: auto;
 				height: auto;
-				float: right;
-				padding: 10px;
-				margin-bottom: 20px;
+				float: none;
+				padding: 0;
 			}
 				.title-talk {
-					height: 15px;
+					height: auto;
+					width: auto;
 					color: #ff8a80;
 					font-family: "Montserrat Light";
-					font-size: 15px;
-					line-height: 15px;
+					font-size: 14px;
+					line-height: 14px;
 					margin-left: 0;
-					margin-bottom: 5px;
+					margin-bottom: 15px;
 				}
 				.stroka1 {
-					width: 100%;
+					width: auto;
 					height: auto;
-					margin-bottom: 5px;
+					margin-bottom: 15px;
 				}
 					.first-name {
 						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
-						padding-left: 0;
+						font-size: 12px;
+						padding-left: 10px;
 						border-radius: 5px;
-						width: 100%;
+						width: calc(100% - 12px);
 						line-height: 20px;
-						margin-bottom: 5px;
+						margin-bottom: 15px;
 					}
 					.last-name {
 						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
-						padding-left: 0;
+						font-size: 12px;
+						padding-left: 10px;
 						border-radius: 5px;
-						width: 100%;
+						width: calc(100% - 12px);
 						line-height: 20px;
 					}
 				.stroka2 {
-					width: 100%;
+					width: auto;
 					height: auto;
-					margin-bottom: 5px;
+					margin-bottom: 15px;
 				}
 					.email {
 						float: none;
 						height: auto;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
-						padding-left: 0;
+						font-size: 12px;
+						padding-left: 10px;
 						border-radius: 5px;
-						width: 100%;
+						width: calc(100% - 12px);
 						line-height: 20px;
-						margin-bottom: 5px;
+						margin-bottom: 15px;
 					}
 					.select {
 						float: none;
-						height: 25px;
-						width: calc(100% + 1px);
+						height: auto;
+						width: 100%;
 						line-height: 20px;
 						border: 1px solid #e3f2fd;
-						font-size: 10px;
-						padding-left: 0;
+						font-size: 12px;
+						padding-left: 10px;
 						border-radius: 5px;
 						-webkit-appearance: none;
 						background: #ffffff url(select.png) no-repeat;
 						background-position: 90% 50%;
-						background-size: 12px;
+						background-size: 15px;
 					}
 				.area {
 					float: none;
-					width: calc(100% - 10px);
+					width: calc(100% - 15px);
 					height: 50px;
 					border: 1px solid #e3f2fd;
 					border-radius: 5px;
-					font-size: 10px;
+					font-size: 12px;
 					padding-left: 10px;
-					padding-top: 5px;
-					margin-bottom: 8px;
+					padding-top: 10px;
+					margin-bottom: 15px;
 					resize: none;
-					word-spacing: -3px;
+					word-spacing: 0;
 				}
 				.submit {
-					float: none;
+					float: right;
 					font-family: "Montserrat SemiBold";
-					font-size: 15px;
-					width: 100%;
-					height: 20px;
+					font-size: 12px;
+					width: 20%;
+					height: 35px;
+					line-height: 22px;
 					border-radius: 5px;
 					background: #ef5350;
 					border: 0;
@@ -3197,70 +3214,79 @@ body {
 					cursor: pointer;
 				}
 		.phone {
+			display: none;
 			position: absolute;
 			top: 110px;
-			left: 7%;
+			left: 13%;
 			background: url(phone.png) no-repeat;
-			background-size: 100% 280px;
-			width: 35%;
-			height: 280px;
+			background-size: 100% 310px;
+			width: 25%;
+			height: 310px;
 		}
+			
 			.screen {
+				display: none;
 				position: relative;
 				background: url(screen.png) no-repeat;
 				background-size: 100% 100%;
 				margin: 35px auto 0 auto;
 				width: 86%;
-				height: 210px;
+				height: 230px;
 			}
 		.line1 {
+			display: none;
 			position: absolute;
-			top: 82px;
+			top: 104px;
 			background: url(line1.png) no-repeat;
 			background-size: 100% 250px;
-			width: 53%;
+			width: 45%;
 			height: 763px;
 		}
 		.line2 {
+			display: none;
 			position: absolute;
-			top: 110px;
+			top: 134px;
 			background: url(line2.png) no-repeat;
 			background-size: 100% 250px;
-			width: 53%;
+			width: 45%;
 			height: 763px;
 		}
 	/*Низ*/
 	.footer {
 		background: #fefcf2;
 		width: 100%;
-		height: 20px;
+		height: auto;
 		font-family: "Montserrat Light";
 		margin-bottom: 10px;
 	}
 		.footer-year {
 			float: left;
-			font-size: 12px;
-			letter-spacing: -1px;
-			margin-left: 8%;
-			margin-top: 10px;
+			font-size: 10px;
+			letter-spacing: 0;
+			margin: 10px 0 10px 2%;
 		}
 		.footer-email {
 			float: right;
-			margin-right: 10%;
-			margin-top: 10px;
-			height: 16px;
+			margin: 10px 2% 10px 0;
+			height: auto;
+			width: auto;
+			line-height: 10px;
 		}
 			.footer-email-image {
 				float: left;
 				background: url(mail.png) no-repeat;
-				background-size: 21px 16px;
-				width: 21px;
+				background-size: 17px 13px;
+				background-position: center;
 				margin-right: 5px;
+				width: 17px;
+				height: 15px;
 			}
 			.footer-email-text {
 				float: right;
+				width: auto;
+				height: auto;
 				font-size: 10px;
-				letter-spacing: -1px;
-				line-height: 16px;
+				letter-spacing: 0;
+				line-height: normal;
 			}
 }
