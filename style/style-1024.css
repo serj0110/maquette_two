@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* 1024 */
+@media screen and (max-width: 1024px) {
+	.logo {
+		margin-left: 5%;
+	}
+	.contact {
+		margin-right: 5%;
+	}
+	.article-form {
+		margin: 165px 2% 100px 0;
+	}
+	.form-title {
+		width: 450px;
+		font-size: 26px;
+	}
+	.form-article {
+		width: 450px;
+		font-size: 15px;
+	}
+	.talk-form {
+		margin: 20px 2% 0 0;
+	}
+	.title-talk {
+		font-size: 18px;
+	}
+	.stroka1 {
+		width: 450px;
+	}
+	.first-name {
+		font-size: 15px;
+	}
+	.last-name {
+		font-size: 15px;
+	}
+	.stroka2 {
+		width: 450px;
+	}
+	.email {
+		font-size: 15px;
+	}
+	.select {
+		font-size: 15px;
+	}
+	.area {
+		font-size: 15px;
+	}
+	.phone {
+		left: 2%;
+		height: 690px;
+	}
+	.screen {
+		height: 495px;
+	}
+	.line1 {
+		top: 152px;
+		height: 550px;
+	}
+	.line2 {
+		top: 222px;
+		height: 550px;
+	}
+	.footer-year {
+		margin-left: 2%;
+	}
+	.footer-email {
+		margin-right: 22%;
+	}
+}

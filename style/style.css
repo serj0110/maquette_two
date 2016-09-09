@@ -1,0 +1,39 @@
+@charset "utf-8";
+@font-face {
+	font-family: "Gotham-Book-Regular";
+	src: url(../font/Gotham-Book-Regular.otf);
+}
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+	font-family: "Montserrat-Light";
+	src: url(../font/Montserrat-Light.otf);
+}
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url(../font/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat-UltraLight";
+	src: url(../font/Montserrat-UltraLight.otf);
+}
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url(../font/Montserrat-SemiBold.otf);
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.page-wrapper {
+	width: 100%;
+	height: auto;
+}
+.clearfix {
+	height: 10px;
+    background: #ffffff;
+    clear: both;
+    height: 0;
+}
