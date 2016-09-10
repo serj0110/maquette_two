@@ -19,7 +19,7 @@
 .form-title {
 	width: 470px;
 	height: auto;
-	font-family: "Montserrat-Regular";
+	font-family: 'MR';
 	font-size: 28px;
 	color: #ffffff;
 	line-height: 28px;
@@ -28,7 +28,7 @@
 .form-article {
 	width: 470px;
 	height: auto;
-	font-family: "Montserrat-UltraLight";
+	font-family: 'MUL';
 	font-size: 16px;
 	color: #ffffff;
 	line-height: 20px;
@@ -41,7 +41,7 @@
 .form-button {
 	float: right;
 	margin-right: 0.6%;
-	font-family: "Montserrat-Regular";
+	font-family: 'MR';
 	font-size: 15px;
 	text-align: center;
 	line-height: 50px;
@@ -68,7 +68,7 @@
 .title-talk {
 	height: auto;
 	color: #ff8a80;
-	font-family: "Montserrat-Light";
+	font-family: 'ML';
 	font-size: 20px;
 	line-height: 20px;
 	margin-left: 4.5%;
@@ -148,7 +148,7 @@
 	border: 0;
 	color: #ffffff;
 	font-size: 20px;
-	font-family: "Montserrat-SemiBold";
+	font-family: 'MSB';
 	cursor: pointer;
 }
 .phone {

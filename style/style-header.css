@@ -14,7 +14,7 @@
 	height: auto;
 }
 .logo {
-	font-family: "Montserrat-Bold";
+	font-family: 'MB';
 	color: #ffffff;
 	font-size: 32px;
 	line-height: 75px;
@@ -29,7 +29,7 @@
 .contact a {
 	color: #ffffff;
 	text-decoration: none;
-	font-family: "Gotham-Book-Regular";
+	font-family: 'GBR';
 	font-size: 17px;
 }
 .contact a:hover {
