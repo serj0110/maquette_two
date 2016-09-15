@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+  .header .bar-down .logo {
+    margin: 0 0 0 5%;
+  }
+  .header .bar-down .contact {
+    margin: 0 5% 0 0;
+  }
+  .main .main-up .box {
+    margin: 165px 2% 100px 0;
+  }
+  .main .main-up .box .box-title {
+    width: 450px;
+    font-size: 26px;
+  }
+  .main .main-up .box .box-article {
+    width: 450px;
+    font-size: 15px;
+  }
+  .main .main-down .forma {
+    margin: 20px 2% 0 0;
+  }
+  .main .main-down .forma .forma-title {
+    font-size: 18px;
+  }
+  .main .main-down .forma .string-one,
+  .main .main-down .forma .string-two {
+    width: 450px;
+    word-spacing: 15px;
+  }
+  .main .main-down .forma .string-one .first-name,
+  .main .main-down .forma .string-one .last-name,
+  .main .main-down .forma .string-two .mail {
+    font-size: 15px;
+  }
+  .main .main-down .forma .string-two .select {
+    font-size: 15px;
+    background-position: 105% -25px;
+  }
+  .main .main-down .forma .area {
+    font-size: 15px;
+  }
+  .main .image-phone {
+    left: 2%;
+    height: 690px;
+    background-size: 605px 1535px;
+  }
+  .main .image-line {
+    width: 420px;
+    background-position: -255px -1138px;
+  }
+  .footer .year {
+    margin: 0 0 0 2%;
+  }
+  .footer .email {
+    margin: 0 22% 0 0;
+  }
+}

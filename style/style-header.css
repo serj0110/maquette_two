@@ -1,0 +1,36 @@
+@charset "utf-8";
+.header {
+  background: #e94643;
+  height: auto;
+}
+.header .bar-up {
+  background: #04e4a2;
+  width: 100%;
+  height: 20px;
+}
+.header .bar-down {
+  width: 100%;
+  height: auto;
+}
+.header .bar-down .logo {
+  font-family: "MB";
+  color: #fff;
+  font-size: 32px;
+  line-height: 75px;
+  margin: 0 0 0 13%;
+  float: left;
+}
+.header .bar-down .contact {
+  line-height: 75px;
+  margin: 0 6% 0 0;
+  float: right;
+}
+.header .bar-down .contact a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "GBR";
+  font-size: 17px;
+}
+.header .bar-down .contact a:hover {
+  border-bottom: 2px solid #fdd835;
+}

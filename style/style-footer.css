@@ -1,0 +1,33 @@
+@charset "utf-8";
+.footer {
+  clear: both;
+  background: #fefcf2;
+  width: 100%;
+  height: auto;
+  font-family: "ML";
+  margin: 0 0 20px 0;
+}
+.footer .year {
+  float: left;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 0 0 10%;
+}
+.footer .email {
+  float: right;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 25% 0 0;
+}
+.footer .email .image-email {
+  float: left;
+  background: url("../image/image.png") no-repeat;
+  background-position: 0px 15px;
+  width: 31px;
+  height: 50px;
+  margin: 0 20px 0 0;
+}
+.footer .email .text-email {
+  float: right;
+  height: auto;
+}
